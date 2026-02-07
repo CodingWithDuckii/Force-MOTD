@@ -1,0 +1,14 @@
+# ForceMOTD Configuration
+# Define your custom MOTD below.
+# You can use standard color codes (§ or &) and newlines (\n).
+# To automatically center the MOTD, you can add <center> to the text OR set center-motd: true below.
+# This MOTD overrides server.properties.
+
+MOTD: "§r                §aHypixel Network §c[1.8/1.21]§r\n            §3§lSB 0.24.1 §8- §b§lBONUS COINS + XP"
+
+# If true, the plugin will attempt to center the MOTD automatically.
+# Warning: If your MOTD already has spaces for centering, set this to false!
+center-motd: false
+
+# If true, the plugin will log to console when the MOTD is reloaded.
+log-on-reload: true

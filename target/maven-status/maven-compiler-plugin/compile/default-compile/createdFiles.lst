@@ -1,0 +1,5 @@
+net\duckii\forcemotd\ForceMOTD.class
+net\duckii\forcemotd\MOTDUtils$DefaultFontInfo.class
+net\duckii\forcemotd\MOTDListener.class
+net\duckii\forcemotd\ReloadCommand.class
+net\duckii\forcemotd\MOTDUtils.class

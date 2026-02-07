@@ -1,0 +1,19 @@
+name: ForceMOTD
+version: '1.0-SNAPSHOT'
+main: net.duckii.forcemotd.ForceMOTD
+api-version: '1.21'
+description: Forces a custom MOTD, ignoring server.properties.
+authors: [duckii]
+website: https://github.com/CodingWithDuckii/ForceMOTD
+
+commands:
+  forcemotd:
+    description: ForceMOTD admin commands
+    usage: /forcemotd reload | /forcemotd set <motd>
+    permission: forcemotd.admin
+    permission-message: §cYou do not have permission to execute this command.
+
+permissions:
+  forcemotd.admin:
+    description: Allows reloading the MOTD config
+    default: op
